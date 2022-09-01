@@ -1,0 +1,83 @@
+<html>
+     <head>
+          <title>ducat</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+.header{padding: 25px; background: wheat;}
+.header img{height: 100px; width: 100px; border-radius: 10px;}
+.header p{float: right; margin-right: 150px; font-size: 35px;
+font-weight: bold; margin-top: 30px;}
+.nav{padding: 8px 16px; background: grey;}
+.nav a{text-decoration: none; padding: 8px 16px; font-weight: bold;}
+.nav a:hover{background: black; color: white;}
+
+.center::after{content: "";
+clear: both;
+display: table;}
+/* .left1,.left2,.left3,.left4{
+     float: left;
+     padding: 20px;
+     border: 1px solid red;
+     word-wrap: break-word;
+     text-align: justify;
+} */
+
+[class*=col-]{
+     float: left;
+     padding: 20px;
+     border: 1px solid red;
+     word-wrap: break-word;
+     text-align: justify;
+}
+
+#a,#b{height: auto; max-width: 100%; float: left; padding: 12px;}
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+@media only screen and (max-width:768px)
+{
+     [class*=col-]{width: 100%;}
+}
+@media only screen and (max-width:600px)
+{
+     .left1{background: yellow;}
+     .left2{background: violet;}
+     .left3{background: greenyellow;}
+     .left4{background: orange;}
+}
+
+     </style>
+     </head>
+     <body>
+<div class="header">
+<img src="images/logo.png">
+<p>ducat india</p>
+</div>
+<div class="nav">
+<a href="#">Home</a>
+<a href="#">Home</a>
+<a href="#">Home</a>
+<a href="#">Home</a>
+<a href="#">Home</a>
+<a href="#">Home</a>
+</div>
+<div class="center">
+     <div class="left1 col-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aliquid facilis iusto quam? Deserunt distinctio libero totam accusantium qui amet fugit reprehenderit neque eius repudiandae nesciunt vero, pariatur ad, perferendis ipsam culpa temporibus aliquid unde est,<img src="images/pic3.jpg" id="a"> labore provident quisquam. Maiores laboriosam nam deserunt possimus dicta mollitia quasi reprehenderit unde assumenda.</div>
+     <div class="left2 col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iste veniam eos explicabo, est reprehenderit distinctio velit tempora officiis dolores aperiam mollitia quis perspiciatis ad omnis magni commodi? Illo, dolore ab debitis iste et accusantium perspiciatis assumenda, atque quos eaque quae cum nobis illum quo iure aperiam nam! Voluptas magni eveniet fugiat vel, ut aliquam incidunt neque? Repudiandae aspernatur beatae, voluptate fugiat doloribus nihil, id recusandae quam magnam animi nemo<img src="images/pic5.jpg" id="b"> maxime dignissimos quibusdam iste pariatur illum sed porro reiciendis, est temporibus in quaerat. Omnis facilis magnam voluptatem quam deserunt asperiores ipsam error exercitationem laboriosam adipisci explicabo assumenda commodi illo incidunt at excepturi, veniam, nemo esse. Illo fugiat voluptatibus nulla quis dolore, facere ullam dolorum ad. Quaerat cupiditate adipisci quod exercitationem.</div>
+     <div class="left3 col-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, in eveniet cum ipsa perspiciatis minus quae exercitationem at sunt ullam facere tenetur blanditiis quia dicta. Soluta neque illo molestiae debitis, maiores quis repellendus autem laudantium minima, consequatur omnis rem sapiente dolorem et suscipit fuga saepe expedita dolore, aperiam quo possimus quia. Architecto excepturi molestiae est saepe ducimus ut, porro cum reiciendis. Sed rerum expedita, quis quo unde in ipsa dolorum dignissimos vitae, autem corrupti debitis, voluptatem harum doloremque? Sapiente libero soluta deleniti aspernatur molestiae aliquid dolorem sunt omnis maxime nulla rerum, voluptate, placeat consequatur magnam, tempore deserunt hic eum! Totam suscipit error accusantium non voluptatem temporibus, odit iusto voluptates, possimus ipsum modi quis delectus quae iste fuga, qui quibusdam ut.</div>
+     <div class="left4 col-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ab expedita nam iste, earum at ea excepturi, pariatur obcaecati fuga dolor cum quod! Fugit et, dicta mollitia illum vel omnis tempore error, totam magni commodi quia placeat sint, nemo atque delectus quos inventore architecto? Modi dolorem necessitatibus neque quis nihil!</div>
+</div>
+     </body>
+</html>

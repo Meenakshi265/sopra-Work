@@ -1,0 +1,62 @@
+.div{
+    margin-left: 500px;
+    margin-top: 50px;
+    height: auto;
+    width: 40%;
+    border: 2px solid rgb(12, 6, 6);
+    border-radius: 10px;
+}
+input{
+    margin-left: 30px;
+       width: 81%;
+       height: 30px;
+       border-radius:5px;     
+}
+#mybtn{
+    width: 40px;
+    height: 33px;
+}
+#all{
+    font-size: 16px;
+    margin: 10px;   
+}
+#active{
+    font-size: 16px;
+    font-weight: bolder;
+    padding :30px;
+    margin: 10px;
+}
+#completed{
+    font-size: 16px;
+    padding :30px;
+    margin: 10px;
+}
+.delete{
+   margin-left:400px;
+}
+.pencil{
+    padding-left:20px;
+    
+}
+.checkbox{
+    padding-left:50px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+ #div2{
+    margin-left: 50px;
+    height: 50px;
+    width: 80%;
+    /* background-color: aqua; */
+    /* border: 2px solid rgb(12, 6, 6); */
+    border-radius: 5px;
+ }
+
+ #div3{
+    margin-left: 10px;
+    height:100px;
+    width: 90%;
+    /* background-color: aqua; */
+    /* border: 2px solid rgb(12, 6, 6); */
+    border-radius: 5px;
+ }

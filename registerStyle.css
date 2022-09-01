@@ -1,0 +1,199 @@
+
+.mydiv1{ 
+
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right:0px ;
+    /* border-top: 37px solid rgb(197, 12, 12); */
+}
+.mydiv2{
+width: 500px;                                      
+height: 510px;
+margin: 30px 10px;
+padding: 30px 20px;
+ /* border: 5px solid black; */
+ border-bottom: 19px solid rgb(41, 182, 214);
+    border-left: 2px solid black;
+    border-right:2px solid black ;
+    border-top: 19px solid rgb(41, 182, 214);
+    border-radius: 20px;
+ font-size: 20px;
+ font-weight: bold;
+ text-decoration: underline;
+ 
+}
+.mydiv3{
+    width: 400px;
+    height: 400px;
+    margin: 10px 20px;
+    padding: 10px 10px;
+    border: 5px solid black;
+    border-radius: 8px;
+
+}
+.input{
+ width: 75%;
+ height: 30px;
+ padding: 5px 10px;
+ margin: 10px;
+ border-top: 0px;
+ border-left: 0px;
+ border-right:0px ;
+  border-bottom: 3px solid black;
+  font-size: 18px;
+
+ 
+}
+.btn-div{
+    width: 80%;
+    height: 50px;
+    border: 2px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+ .btn{
+    width: 70%;
+    height: 40px;
+    border: 2px;
+    border-radius: 30px;
+    /* background: linear-gradient(rgb(167, 6, 19),rgb(177, 93, 14), rgb(122, 5, 15)); */
+    background-color: rgb(41, 182, 214);
+    font-size: 18px;
+    font-weight: bolder;
+   
+
+ }
+
+ #user-img{
+    height: 30px;
+    width: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(67, 9, 176), url(pic1.png));
+ }
+
+ #social{
+    /* border:2px solid #2c4762; */
+    height:55px;
+    width: 80%;
+ }
+ .fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 10px;
+    height:10px;
+    text-align: center;
+    text-decoration: none;
+    margin:11px 7px;
+    border-radius: 10px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-android {
+    background: #a4c639;
+    color: white;
+  }
+  
+  .fa-dribbble {
+    background: #ea4c89;
+    color: white;
+  }
+  
+  .fa-vimeo {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-tumblr {
+    background: #2c4762;
+    color: white;
+  }
+  
+  .fa-vine {
+    background: #00b489;
+    color: white;
+  }
+  
+  .fa-foursquare {
+    background: #45bbff;
+    color: white;
+  }
+  
+  .fa-stumbleupon {
+    background: #eb4924;
+    color: white;
+  }
+  
+  .fa-flickr {
+    background: #f40083;
+    color: white;
+  }
+  
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  
+  .fa-soundcloud {
+    background: #ff5500;
+    color: white;
+  }
+  
+  .fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  
+  .fa-rss {
+    background: #ff6600;
+    color: white;
+  }
